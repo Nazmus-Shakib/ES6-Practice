@@ -1,6 +1,6 @@
 class Parent {
   constructor() {
-    this.fatherName = "Schwernegger";
+    this.fatherName = "Schwerznegger";
   }
 }
 class Child extends Parent {
@@ -8,7 +8,7 @@ class Child extends Parent {
     super(); // to call the upper class constructor
     this.name = name;
   }
-  getFullName() {
+  getFullName() { // can declare a function inside a class as well
     return this.name + " " + this.fatherName;
   }
 }

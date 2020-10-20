@@ -12,7 +12,7 @@ const doubleIt = num => num * 2; // define function in a single line with one pa
 const result = doubleIt(5);
 console.log(result);
 
-const add = (num1, num2) => num1 + num2; // define function in a single line with two parameter
+const add = (num1, num2) => num1 + num2; // define function in a single line with multiple parameter
 const result1 = add(50, 70);
 console.log(result1);
 

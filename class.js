@@ -1,4 +1,4 @@
-class student {
+class Student {
   constructor(sId, sName) {
     this.id = sId;
     this.name = sName;
@@ -6,8 +6,8 @@ class student {
   }
 }
 // make object from class
-const student1 = new student(24, "Shakib"); // to call class using parameter like function
-const student2 = new student(25, "Sourav");
+const student1 = new Student(24, "Shakib"); // to call class using parameter like function
+const student2 = new Student(25, "Sourav");
 console.log(student1, student2);
 
 console.log(student1.name, student2.name); // can access value like object
